@@ -1,0 +1,55 @@
+.project-container {
+  padding: 50px 0;
+  background-color: #111a28;
+}
+.project-title {
+  margin: 50px auto;
+  text-align: center;
+  color: #fff;
+  max-width: 300px;
+  position: relative;
+}
+.project-title::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.project-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.technology-title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.technology {
+  background: #111a28;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.project-btn {
+  text-decoration: none;
+  color: #111a28;
+  border: 3px solid #00cf5d;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.project-btn:hover {
+  background: #00cf5d;
+  color: #fff;
+  transition: 0.3s;
+}
